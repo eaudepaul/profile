@@ -1,0 +1,73 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #fcd87d;
+  color: #361212;
+  padding: 25px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Slab', serif;
+  background-color: #e9e0ca;
+  color: #0a0404;
+  padding: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #361212;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #201ebe;
+  transition: 0.3s ease;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  width: 300px;
+  margin: 25px auto;
+  border-radius: 8px;
+  border: 2px solid black;
+  box-shadow: 0 0 16px;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 16px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 10px / 10px;
+  background-color: #919f70;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
